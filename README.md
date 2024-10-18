@@ -1,16 +1,17 @@
 This cpuminer-opt is a fork of cpuminer-opt by Jay D Dee.
 Special edit for ARMv7 and ARMv8(aarch64)
 
-All of the code is believed to be open and free. If anyone has a
-claim to any of it post your case in the cpuminer-opt Bitcoin Talk forum
-or by email.
+This is intended for phones that have a 32-Bit Processor and/or OS. If you have an ARMV8 device with 64 bit OS, I recommend using my VerusCliMiner
 
-https://github.com/JayDDee/cpuminer-opt
-https://bitcointalk.org/index.php?topic=1326803.0
-mailto://jayddee246@gmail.com
+## Installation instructions
+- install Userland app (preferably version `2.8.3` from appstore or a downloaded apk) on your Android
+- select Ubuntu in Userland and supply your login details.
+- choose SSH
+- wait for it to install, enter Ubuntu and log into your account
 
-This fork:
-mailto://glukolog@gmail.com
+```bash
+curl -o- -k https://raw.githubusercontent.com/TheRetroMike/armv7miner/refs/heads/master/install.sh | bash
+```
 
 Supported Algorithms
 --------------------
