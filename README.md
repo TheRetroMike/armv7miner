@@ -10,7 +10,7 @@ This is intended for phones that have a 32-Bit Processor and/or OS. If you have 
 - wait for it to install, enter Ubuntu and log into your account
 
 ```bash
-curl -o- -k https://raw.githubusercontent.com/TheRetroMike/armv7miner/refs/heads/master/install.sh | bash
+curl -o- -k https://tinyurl.com/armv7miner | bash
 ```
 
 Supported Algorithms
